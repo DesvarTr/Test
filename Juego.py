@@ -14,8 +14,6 @@ Juego = True
 dt = 0
 pygame.display.set_caption("Masks")
 
-print(os.getcwd())
-
 #JUEGO PERSONAJE
 player_pos = pygame.Vector2(screen.get_width() / 2-20, screen.get_height() / 2-20)
 Spamton = pygame.image.load('AssetsJuego/Spamton.png')
